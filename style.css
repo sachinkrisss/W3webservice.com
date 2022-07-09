@@ -653,7 +653,7 @@ footer span a:hover{
 /* responsive media query start */
 @media (max-width: 1404px) {
     .about .about-content .left img{
-        height: 3500px;
+        height: 350px;
         width: 350px;
         
     }
@@ -741,12 +741,24 @@ footer span a:hover{
     }
 }
 @media (min-width: 660px) and (max-width: 850px) 
+
 {
+    .about .about-content .left img{
+        height: 350px;
+        width: 300px;
+        
+    }
+
     .form1 form{
     left: 57%;
 }
 }
 @media (min-width:500px) and (max-width: 658px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 300px;
+        
+    }
     .form1 form{
        
         left: 50%;
@@ -771,6 +783,11 @@ footer span a:hover{
 }
 
 @media (min-width: 300px) and (max-width:500px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 300px;
+        
+    }
     
     .form1 form{
         margin-top: 50%;
